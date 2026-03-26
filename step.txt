@@ -6,3 +6,11 @@
 6. write the command -> docker compose up -d (to up the container)
 7. for down/delete the container -> docker compose down (to delete the container)
 8. upload the code on the github
+9. create the aws account and
+
+
+
+14. update the server ubuntu -> sudo apt-get update
+15. upgrade the server ubuntu -> sudo apt-get upgrade
+16. go to broser and search docker install on ubuntu and copy and past the command on the server ubuntu
+17. cloan the repo. jo banaya h {on server ubuntu }
