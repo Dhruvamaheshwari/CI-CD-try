@@ -14,3 +14,8 @@
 15. upgrade the server ubuntu -> sudo apt-get upgrade
 16. go to broser and search docker install on ubuntu and copy and past the command on the server ubuntu
 17. cloan the repo. jo banaya h {on server ubuntu }
+
+
+
+
+20. to generate the ssh_key command => ssh-keygen -t rsa -b 4096 -C "AWS"
