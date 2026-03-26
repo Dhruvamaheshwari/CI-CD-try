@@ -1,0 +1,8 @@
+1. create the project 
+2. create the Dockerfile
+3. run the command docker build -t api .
+4. run the command docker rum -it --rm -p 4000:4000 api
+5. create the docker compose yml file -> docker-compose.yml
+6. write the command -> docker compose up -d (to up the container)
+7. for down/delete the container -> docker compose down (to delete the container)
+8. upload the code on the github
