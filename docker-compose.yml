@@ -1,9 +1,15 @@
+# @format
+
 services:
   app:
+    container_name: github-action-app
     build:
       context: .
       dockerfile: Dockerfile
-    restart: unless-stopped
+    restart: always
+    env_file:
+      - .env
     ports:
       - "4000:4000"
-
+    environment:
+      - NODE_ENV=production
