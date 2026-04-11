@@ -16,6 +16,4 @@
 17. cloan the repo. jo banaya h {on server ubuntu }
 
 
-
-
 20. to generate the ssh_key command => ssh-keygen -t rsa -b 4096 -C "AWS"
