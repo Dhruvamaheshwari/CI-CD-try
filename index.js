@@ -8,7 +8,9 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send(
-    "Hello jeee server run ho rha h => Dhruva Maheshwari => Done Deployment",
+    `Hello jeee server run ho rha h => Dhruva Maheshwari => Done Deployment
+    <br>
+    <a href="/test">go to Test page</a>`,
   );
 });
 
